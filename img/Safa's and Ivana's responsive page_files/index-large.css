@@ -1,0 +1,166 @@
+/* Color */
+.orange {
+    color: #fb7042;
+}
+
+.black {
+    color: #000;
+}
+
+
+
+
+/* Fonts & Font style */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+}
+
+main {
+    height: auto;
+}
+.bold {
+    font-weight: bold;
+}
+
+.O.none {
+    list-style-type: none;
+}
+
+.inline {
+    display: inline;
+}
+
+/* flexbox */
+
+.flex {
+    display: flex;
+}
+
+.cflex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.jbetween {
+    justify-content: space-between;
+}
+
+.jaround {
+    justify-content: space-around;
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+/* nav-bar style */
+/* mobile version */
+/* nav-bar */
+
+#header-container {
+    position:fixed;
+}
+
+#black-header-line, #white-header-line {
+    display: none;
+}
+
+#small-top-line {
+    height: 32px;
+    width: 100%;
+    background-color: white;
+}
+
+#yellow-header-line {
+background-color: yellow;
+height: 32px;
+width: 100%;
+padding-top: 30px;
+}
+
+#yelow-nav {
+    margin: auto;
+    text-align: center;
+}
+
+/* highlights */
+
+#highlights-container {
+    width: 100%;
+    height: auto;
+}
+
+.highlights {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+#highlights1 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/946/114/non_2x/smart-phone-in-hand-free-photo.jpg");
+
+}
+
+#highlights2 {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7f1aa852-67ff-4f76-98b8-526c11d03f6a/d981ftr-46f1954d-5e9d-4b44-ae5c-aa8800f90c81.png");
+
+}
+
+#highlights3 {
+    background-image: url("https://tinycontrol-software.gitlab.io/lk3docs/en/assets/images/login.png");
+}
+
+
+/* Latest funds */
+.fund {
+    background-color: #fdeadf;
+    width: 23%;
+    margin-top: 20px;
+}
+
+.fund > img {
+    width: 100%;
+}
+
+.mb2 {
+    margin-bottom: 20px;
+}
+
+/* Latest funds mobile version */
+
+@media screen and (max-device-width: 480px) {
+    .sjaround {
+        justify-content: space-around;
+    }
+
+    .sjbetween {
+        justify-content: space-between;
+    }
+
+    .sflex {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .sfund {
+        background-color: #fdeadf;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sfund > img {
+        width: 100%;
+    }
+}
+
+/* footer */
+.bblack {
+    background-color: rgb(19, 19, 19);
+}
+
+.b
+/* nav bar style> */
+

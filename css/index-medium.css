@@ -1,0 +1,16 @@
+
+.none {
+    list-style-type: none;
+}
+
+.inline {
+    display: inline;
+}
+
+
+
+/* nav bar style> */
+
+#burger-for-small {
+    display: none;
+}
