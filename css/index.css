@@ -218,8 +218,8 @@ h2 {
 }
 
 @media (max-width: 768px) {
-
-  #space { display: none;
+  #space {
+    display: none;
   }
 }
 
@@ -236,7 +236,7 @@ h2 {
     justify-content: center;
   }
 
- .cflex {
+  .cflex {
     display: flex;
     flex-flow: column wrap;
   }
@@ -254,7 +254,7 @@ h2 {
     width: 50%;
   }
 
-    /* Funds */
+  /* Funds */
   .lsec {
     margin-top: 20px;
   }
@@ -334,12 +334,12 @@ h2 {
     height: 30px;
   }
 
-    /* Higlights style */
+  /* Higlights style */
 
   @media (max-width: 768px) {
-     #top-span {
-      display: none;
-     }
+    #top-span {
+    display: none;
+    }
   }
 
   #highlights-container {
@@ -395,7 +395,6 @@ h2 {
   #ul-h-3 {
     font-size: 8px;
   }
-
 }
 
 /* Large screen */
@@ -438,7 +437,7 @@ h2 {
   #img-h1 {
     background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https:/cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"), linear-gradient(rgba(255, 51, 51, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/2x4HLcp");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 30% 30% ,cover, cover;
+    background-size: 30% 30%, cover, cover;
     background-position: 2% 0, center, center;
     grid-area: a;
     margin-bottom: 64px;
@@ -453,11 +452,10 @@ h2 {
     height: 25vw;
     margin: 0%;
   }
-  
+
   #img-h2 {
     grid-area: b;
     height: 11vw;
-    margin-bottom: px;
   }
 
   #img-h3 {
@@ -489,34 +487,35 @@ h2 {
 
   #highlight-txt3 {
     margin-top: 140px;
-    }
+  }
 
   #high2-h2,
   #high3-h2 {
     font-size: 25px;
   }
 
-  #ul-h-2, #ul-h-2 {
+  #ul-h-2,
+  #ul-h-3 {
     font-size: 8px;
-    }
+  }
 
     /* Latest funds */
   .ltitle {
     font-size: 30px;
-    }
+  }
 
   .fund {
     background-color: #fdeadf;
     width: 23%;
     margin-top: 20px;
-    }
+  }
 
   .fund > img {
     width: 100%;
-    }
+  }
 
   .socials {
     margin-bottom: 10px;
     width: 30%;
-    }
+  }
 }
