@@ -393,3 +393,61 @@ h2 {
 
 }
 
+/* Large screen */
+
+@media screen and (min-device-width: 768px){
+    body{
+        max-width: 100%;
+    }
+
+    .list {
+        display: inline;
+    }
+
+    /* flexbox */
+    .flex {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .jcenter {
+        justify-content: center;
+    }
+    
+    .jbase {
+        justify-content: baseline;
+    }
+    
+    .cflex {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .jaround{
+        justify-content: space-around;
+    }
+    
+    .jbetween {
+        justify-content: space-between;
+    }
+    
+    .jevenly {
+        justify-content: space-evenly;
+    }
+    
+    /* Latest funds */
+    .fund {
+        background-color: #fdeadf;
+        width: 23%;
+        margin-top: 20px;
+    }
+    
+    .fund > img {
+        width: 100%;
+    }
+    
+    .socials {
+       margin-bottom: 10px;
+       width: 30%;
+    }
+}
