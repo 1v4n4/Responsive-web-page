@@ -1,0 +1,129 @@
+/* General glases */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline {
+    display: inline;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/*nav bar style */
+
+#header-container {
+    position: fixed;
+    width: 100%;
+
+}
+
+#black-header-line {
+        display: none;
+}
+
+#white-header-line {
+        display: none;
+}
+
+#yellow-header-line {
+    background-color: rgb(236, 191, 68);
+    font-size: 12px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+
+#small-top-line {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+
+#small-right {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.small-right-img {
+    padding-left:10px;
+    border-left: 1px solid lightgrey;
+    }
+
+    /* Highlights style */
+
+#highlights-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    background-color: limegreen;
+}
+
+.img-h {
+    margin-bottom: 7px;
+    margin-right: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 97%;
+    height: 35vw;
+    text-align: left;
+    }
+
+#img-h1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/2x4HLcp");
+    }
+
+#img-h2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/hx4Hxf3");
+    }
+
+#img-h3 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/zx4Jwz6");
+    }
+
+.highlight-txt {
+    color: white;
+    font-size: 12px;
+    margin-top: 80px;
+    }
+
+.highlights-h {
+    font-size: 17px;
+}
+
+.hi-ul {
+margin-left: 10px;
+    }
+
+h2 {
+    margin-left: 10px;
+}
+
+#space {
+display: none;
+}
+
+#top-span {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+
+
+}
