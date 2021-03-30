@@ -338,7 +338,7 @@ h2 {
 
   @media (max-width: 768px) {
     #top-span {
-    display: none;
+      display: none;
     }
   }
 
@@ -499,7 +499,7 @@ h2 {
     font-size: 8px;
   }
 
-    /* Latest funds */
+  /* Latest funds */
   .ltitle {
     font-size: 30px;
   }
