@@ -331,8 +331,11 @@ h2 {
     }
 
     /* Higlights style */
+
+    @media (max-width: 768px) {
     #top-span {
         display: none;
+    }
     }
 
     #highlights-container {
@@ -371,10 +374,6 @@ h2 {
     font-size: 25px;
     }
 
-  /*  #highlight-txt1 {
-        margin-top: 200px;
-    } */
-
     #high1-h2 {
         margin: 180px 0 10px 10px;
     }
@@ -396,16 +395,13 @@ h2 {
 /* Large screen */
 
 @media screen and (min-device-width: 768px){
-    body{
-        max-width: 100%;
-    }
+  .list {
+    display: inline;
+  }
 
-    .list {
-        display: inline;
-    }
+  /* flexbox */
 
-    /* flexbox */
-    .flex {
+  .flex {
         display: flex;
         flex-flow: row wrap;
     }
@@ -413,11 +409,11 @@ h2 {
     .jcenter {
         justify-content: center;
     }
-    
+
     .jbase {
         justify-content: baseline;
     }
-    
+
     .cflex {
         display: flex;
         flex-flow: column wrap;
@@ -426,26 +422,107 @@ h2 {
     .jaround{
         justify-content: space-around;
     }
-    
+
     .jbetween {
         justify-content: space-between;
     }
-    
+
     .jevenly {
         justify-content: space-evenly;
     }
-    
+
+  /* highlights */
+
+
+#top-span {
+  display:
+}
+
+
+#img-h1 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https:/cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"), linear-gradient(rgba(255, 51, 51, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/2x4HLcp");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 30% 30% ,cover, cover;
+  background-position: 2% 0, center, center;
+}
+
+
+ #highlights-container {
+    display: grid;
+    grid-template-areas: "a a b" "a a c";
+    width: 100%;
+    height: 25vw;
+    margin: 0%;
+    }
+
+  .img-h {
+
+  }
+
+  #img-h1 {
+      grid-area: a;
+      margin-bottom: 64px;
+      margin-left: 20px;
+      height: 21vw;
+    }
+
+   #img-h2 {
+       grid-area: b;
+       height: 11vw;
+       margin-bottom: px;
+   }
+
+   #img-h3 {
+       grid-area: c;
+       height: 11vw;
+       margin-bottom: 63px;
+   }
+
+    .highlight-txt {
+    color: white;
+    font-size: 17px;
+
+    }
+
+    .highlights-h {
+    font-size: 25px;
+    }
+
+    #high1-h2 {
+    font-size: 50px;
+    }
+
+   #highlight-txt1 {
+     margin-top: 250px;
+   }
+
+  #highlight-txt2 {
+     margin-top: 140px;
+   }
+
+   #highlight-txt3 {
+     margin-top: 140px;
+   }
+
+  #high2-h2, #high3-h2 {
+        font-size: 25px;
+
+    }
+    #ul-h-2, #ul-h-2 {
+        font-size: 8px;
+    }
+
     /* Latest funds */
     .fund {
         background-color: #fdeadf;
         width: 23%;
         margin-top: 20px;
     }
-    
+
     .fund > img {
         width: 100%;
     }
-    
+
     .socials {
        margin-bottom: 10px;
        width: 30%;
