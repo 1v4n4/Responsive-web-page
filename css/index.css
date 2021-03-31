@@ -1,4 +1,13 @@
 /* General glases */
+.fa-facebook-square,
+.fa-youtube,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest,
+.fa-facebook,
+.fa-envelope {
+  color: white;
+}
 
 /* Color */
 .orange {
@@ -51,6 +60,13 @@ footer {
   width: 100%;
 }
 
+.logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
 .upperf {
   background-color: rgb(19, 19, 19);
   padding-top: 20px;
@@ -68,9 +84,11 @@ footer {
 }
 
 .bicon {
-  background-color: #fff;
-  border-width: thin;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-color: rgba(0, 0, 0, 0.363);
+  border: none;
   border-radius: 50%;
+  width: 10%;
 }
 
 /* Nav bar style */
@@ -251,12 +269,13 @@ h2 {
 
   .socials {
     margin-bottom: 10px;
-    width: 50%;
+    width: 40%;
   }
 
   /* Funds */
   .lsec {
     margin-top: 20px;
+    
   }
 
   .ltitle {
@@ -399,7 +418,7 @@ h2 {
 
 /* Large screen */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 769px) {
   .list {
     display: inline;
   }
@@ -500,8 +519,16 @@ h2 {
   }
 
   /* Latest funds */
+  .lsec {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .lsec > header {
+    margin-top: 20px;
+  }
   .ltitle {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .fund {
@@ -516,6 +543,6 @@ h2 {
 
   .socials {
     margin-bottom: 10px;
-    width: 30%;
+    width: 10%;
   }
 }
