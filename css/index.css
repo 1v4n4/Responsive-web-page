@@ -54,6 +54,10 @@ body {
   color: #fff;
 }
 
+.grid {
+  display: grid;
+}
+
 /* Footer */
 footer {
   box-sizing: border-box;
@@ -231,6 +235,105 @@ h2 {
 
 .mb2 {
   margin-bottom: 20px;
+}
+
+/* Nine sections */
+
+#nine-imgflex1 {
+  background-image: url("https://cutt.ly/OcrqmDU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#nine-imgflex2 {
+  background-image: url("https://cutt.ly/Kcrq0x7");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex3 {
+  background-image: url("https://cutt.ly/2crwdmw");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex4 {
+  background-image: url("https://cutt.ly/jcrwO9w");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex5 {
+  background-image: url("https://cutt.ly/vcrekvi");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex6 {
+  background-image: url("https://cutt.ly/3creZWO");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex7 {
+  background-image: url("https://cutt.ly/pcrruoL");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex8 {
+  background-image: url("https://cutt.ly/CcrrUDF");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nine-imgflex9 {
+  background-image: url("https://cutt.ly/DcrrVer");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Latest Deals */
+
+#deals-img1 {
+  background-image: url("https://cutt.ly/Scruoyk");
+}
+
+#deals-img2 {
+  background-image: url("https://cutt.ly/Ncruxuv");
+}
+
+#deals-img3 {
+  background-image: url("https://cutt.ly/8cruZ5v");
+}
+
+#deals-img4 {
+  background-image: url("https://cutt.ly/FcrispL");
+}
+
+#deals-img5 {
+  background-image: url("https://cutt.ly/vcroaEz");
+}
+
+#deals-img6 {
+  background-image: url("https://cutt.ly/5croT1Q");
+}
+
+#deals-img7 {
+  background-image: url("https://cutt.ly/fcroFME");
+}
+
+#deals-img8 {
+  background-image: url("https://cutt.ly/ScrFjAu") ;
 }
 
 /* Footer */
