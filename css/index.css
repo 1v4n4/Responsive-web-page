@@ -58,6 +58,27 @@ body {
   display: grid;
 }
 
+/* Latest News */
+.news-div {
+  display: flex;
+}
+
+.news-img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.news-txt {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.news-txt > h3 {
+  font-weight: bold;
+}
 /* Footer */
 footer {
   box-sizing: border-box;
