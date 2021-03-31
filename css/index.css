@@ -84,11 +84,16 @@ footer {
 }
 
 .bicon {
-  background-color: rgba(0, 0, 0, 0.363);
-  border-color: rgba(0, 0, 0, 0.363);
-  border: none;
+  background-color: #3b3b3c;
+  border-color: #3b3b3c;
+  border-width: thin;
   border-radius: 50%;
-  width: 10%;
+  width: 30px;
+  height: 30px;
+}
+
+.bicon:hover {
+  background-color: rgba(0, 0, 0, 0.363);
 }
 
 /* Nav bar style */
@@ -509,6 +514,10 @@ h2 {
 
   .socials {
     margin-bottom: 10px;
-    width: 10%;
+    width: 25%;
+  }
+
+  .flist > li {
+    margin-right: 10px;
   }
 }
