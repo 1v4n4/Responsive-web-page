@@ -2,7 +2,7 @@
 
 The project is about applying responsive design techniques so that the website behaves differently depending on the size of the screen where the website is displayed. The website adapts to three views: Mobile, tablet, and large screen.
 
-## Screenshot ## https://user-images.githubusercontent.com/65791349/113131433-7e8feb00-921d-11eb-99ad-4841795b957d.png
+![screenshot](https://user-images.githubusercontent.com/65791349/113131433-7e8feb00-921d-11eb-99ad-4841795b957d.png)
 
 Additional description about the project and its features.
 
