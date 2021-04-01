@@ -956,9 +956,9 @@ h2 {
 
   /* Latest News */
 
-#latest-news > header {
-  margin-left: 0;
-}
+  #latest-news > header {
+    margin-left: 0;
+  }
 
   #latest-news {
     margin-top: 150px;
