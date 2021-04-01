@@ -955,6 +955,11 @@ h2 {
   }
 
   /* Latest News */
+
+  #latest-news > header {
+  margin-left: 0px;
+}
+
   #latest-news {
     margin-top: 150px;
   }
@@ -1005,6 +1010,10 @@ h2 {
 
   #deals-container {
     margin-top: 150px;
+  }
+
+  #deals-header {
+  margin-left: 0px;
   }
 
   /* Categories */
