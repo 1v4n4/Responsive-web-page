@@ -391,6 +391,17 @@ h2 {
   background-position: center;
 }
 
+.nine-imgflex > h2 > a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.news-txt > p > a {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.363);
+}
+
 .nine-li > a {
   color: #333;
   font-size: 13px;
@@ -399,12 +410,6 @@ h2 {
 .nine-li > a:hover {
   color: black;
   font-size: 13px;
-}
-
-.nine-imgflex > h2 > a {
-  font-weight: bold;
-  font-size: 20px;
-  color: #fff;
 }
 
 .nine-imgflex > p {
@@ -426,7 +431,7 @@ h2 {
 }
 
 .nine-list {
-  list-style: none ;
+  list-style: none;
 }
 
 .nine-list li::before {
@@ -508,11 +513,6 @@ h2 {
   #space {
     display: none;
   }
-}
-
-.news-txt > p > a {
-  font-size: 11px;
-  color: rgba(0, 0, 0, 0.363);
 }
 
 .news-txt > p > a:hover {
