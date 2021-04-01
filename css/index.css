@@ -956,8 +956,8 @@ h2 {
 
   /* Latest News */
 
-  #latest-news > header {
-  margin-left: 0px;
+#latest-news > header {
+  margin-left: 0;
 }
 
   #latest-news {
@@ -1013,7 +1013,7 @@ h2 {
   }
 
   #deals-header {
-  margin-left: 0px;
+    margin-left: 0;
   }
 
   /* Categories */
