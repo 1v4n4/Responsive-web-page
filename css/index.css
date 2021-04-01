@@ -391,10 +391,9 @@ h2 {
   background-position: center;
 }
 
-.nine-imgflex > h2 > a {
-  font-weight: bold;
-  font-size: 20px;
-  color: #fff;
+.nine-li > a {
+  color: #333;
+  font-size: 13px;
 }
 
 .news-txt > p > a {
@@ -402,9 +401,10 @@ h2 {
   color: rgba(0, 0, 0, 0.363);
 }
 
-.nine-li > a {
-  color: #333;
-  font-size: 13px;
+.nine-imgflex > h2 > a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
 }
 
 .nine-li > a:hover {
