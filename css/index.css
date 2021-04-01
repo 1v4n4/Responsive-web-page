@@ -63,6 +63,10 @@ body {
   display: flex;
 }
 
+#latest-news > header {
+  margin-left: 10px;
+}
+
 .news-img {
   width: 75px;
   height: 75px;
@@ -99,6 +103,12 @@ body {
 
 /* Latest Deals */
 
+#deals-header {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
 .deals-img {
   width: 75px;
   height: 75px;
@@ -109,12 +119,6 @@ body {
   margin: 20px 0 0 20px;
   padding-right: 5px;
 }
-
-.deals-header{
-  display: flex;
-  justify-content: space-between;
-}
-/* Latest Deals */
 
 #deals-img1 {
   background-image: url("https://cutt.ly/Scruoyk");
@@ -152,6 +156,9 @@ body {
   .deals-img > p {
     display: none;
   }
+  .price > p {
+    display: none;
+  }
 }
 
 .deals-card {
@@ -174,15 +181,14 @@ body {
 }
 
 .deals-p {
-  text-decoration: line-through;
-  font-size: 11px;
-  color: #3b3b3c;
+  color: rgb(15, 15, 15);
+  font-size: 13px;
 }
 
 .deals-span {
-  text-decoration: none;
-  font-size: 13px;
-  color: #333;
+  text-decoration: line-through;
+  font-size: 11px;
+  color: #3d3d3d;
 }
 
 .deals-headline:hover {
@@ -358,6 +364,10 @@ h2 {
 }
 
 /* Latest funds */
+#idfunds {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .sfund {
   background-color: #fdeadf;
   width: 100%;
@@ -387,6 +397,9 @@ h2 {
   width: 100%;
   color: #fff;
   margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nine-imgflex > h2 > a {
@@ -405,7 +418,6 @@ h2 {
   height: 83px;
   object-fit: cover;
   margin-top: 1px;
-  margin-right: -20px;
 }
 
 .nine-latest {
@@ -422,7 +434,7 @@ h2 {
   color: #fb7042;
   content: "\2022";
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
 }
 
@@ -458,70 +470,45 @@ h2 {
 }
 
 #nine-imgflex1 {
-  background-image: url("https://cutt.ly/OcrqmDU"), linear-gradient(#d3d3d3, rgba(0, 0, 0, 1));
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: center, center ;
-  
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/OcrqmDU");
 }
 
 #nine-imgflex2 {
-  background-image: url("https://cutt.ly/Kcrq0x7"), linear-gradient(#d3d3d3, rgba(0, 0, 0, 1));
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/Kcrq0x7");
 }
 
 #nine-imgflex3 {
-  background-image: url("https://cutt.ly/2crwdmw");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/2crwdmw");
 }
 
 #nine-imgflex4 {
-  background-image: url("https://cutt.ly/jcrwO9w");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/jcrwO9w");
 }
 
 #nine-imgflex5 {
-  background-image: url("https://cutt.ly/vcrekvi");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/vcrekvi");
 }
 
 #nine-imgflex6 {
-  background-image: url("https://cutt.ly/3creZWO");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/3creZWO");
+
 }
 
 #nine-imgflex7 {
-  background-image: url("https://cutt.ly/pcrruoL");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/pcrruoL");
 }
 
 #nine-imgflex8 {
-  background-image: url("https://cutt.ly/CcrrUDF");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/CcrrUDF");
 }
 
 #nine-imgflex9 {
-  background-image: url("https://cutt.ly/DcrrVer");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("https://cutt.ly/DcrrVer");
 }
 
+.categories-p {
+  font-size: 11px;
+}
 
 /* Footer */
 .socials {
@@ -573,6 +560,7 @@ h2 {
 
   .ltitle {
     font-size: 20px;
+    font-weight: bolder;
   }
 
   /* nab-bar */
@@ -728,6 +716,7 @@ h2 {
     object-fit: cover;
     margin: 0;
   }
+
   .news-txt {
     display: flex;
     flex-direction: column;
@@ -844,12 +833,12 @@ h2 {
     width: 80%;
     margin: 10px;
   }
-  
+
   .txt-latest > P {
     text-transform: uppercase;
     margin-bottom: 5px;
   }
-  
+
   .txt-latest > h3 {
     font-size: 11px;
     font-weight: bold;
@@ -963,7 +952,16 @@ h2 {
   .flist > li {
     margin-right: 10px;
   }
+
+  #idfunds {
+    margin-top: 150px;
+  }
+
   /* Latest News */
+  #latest-news {
+    margin-top: 150px;
+  }
+
   #news-container {
     display: grid;
     grid-template-rows: repeat(2,1fr);
@@ -979,14 +977,16 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .news-img {
     width: 100%;
-    height: 60%;
+    height: 150px;
     object-fit: cover;
     margin: 0;
   }
+
   .news-txt {
     display: flex;
     flex-direction: column;
@@ -1006,7 +1006,7 @@ h2 {
   }
 
   #deals-container {
-    margin-bottom: 40px;
+    margin-top: 150px;
   }
 
   /* Categories */
@@ -1015,46 +1015,18 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 150px;
   }
- 
+
  .nine-item {
    display: flex;
    flex-direction: column;
    margin: 10px;
    width: 30.5%;
   }
-/*
-  .nine-imgflex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 250px;
-    width: 100%;
-    color: #fff;
-    margin-top: 20px;
-  }
 
-  .ali {
-    width: 83px;
-    height: 83px;
-    object-fit: cover;
-    margin: 1px 0 0 0;
+  /* Footer */
+  footer {
+    margin-top: 150px;
   }
-
-  .txt-latest {
-    width: 80%;
-    margin: 10px;
-  }
-  
-  .txt-latest > P {
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-  
-  .txt-latest > h3 {
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 13px;
-  }*/
 }
