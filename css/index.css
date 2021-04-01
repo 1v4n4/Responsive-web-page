@@ -109,6 +109,11 @@ body {
   margin: 20px 0 0 20px;
   padding-right: 5px;
 }
+
+.deals-header{
+  display: flex;
+  justify-content: space-between;
+}
 /* Latest Deals */
 
 #deals-img1 {
@@ -367,20 +372,105 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Nine sections */
+/* Categories */
+.nine-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.nine-imgflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.nine-imgflex > h2 > a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.nine-imgflex > p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.ali {
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin-top: 1px;
+  margin-right: -20px;
+}
+
+.nine-latest {
+  display: flex;
+  margin-right: 0;
+  background-color: #ecefc5;
+}
+
+.nine-list {
+  list-style: none ;
+}
+
+.nine-list li::before {
+  color: #fb7042;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+}
+
+.nine-li {
+  margin-bottom: 3px;
+  padding: 10px;
+  border-bottom: 1px solid #d3d3d35b;
+}
+
+.nine-li > a {
+  color: #333;
+  font-size: 13px;
+}
+
+.nine-li > a:hover{
+  color: black;
+  font-size: 13px;
+}
+
+.txt-latest {
+  width: 80%;
+  margin: 10px;
+}
+
+.txt-latest > P {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.txt-latest > h3 {
+  font-size: 11px;
+  font-weight: bold;
+}
 
 #nine-imgflex1 {
-  background-image: url("https://cutt.ly/OcrqmDU");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("https://cutt.ly/OcrqmDU"), linear-gradient(#d3d3d3, rgba(0, 0, 0, 1));
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center, center ;
+  
 }
 
 #nine-imgflex2 {
-  background-image: url("https://cutt.ly/Kcrq0x7");
+  background-image: url("https://cutt.ly/Kcrq0x7"), linear-gradient(#d3d3d3, rgba(0, 0, 0, 1));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 }
 
 #nine-imgflex3 {
@@ -719,6 +809,52 @@ h2 {
       display: none;
     }
   }
+
+  /* Categories */
+  #nine-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+ .nine-item {
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   width: 46%;
+  }
+
+  .nine-imgflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .ali {
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    margin: 1px 0 0 0;
+  }
+
+  .txt-latest {
+    width: 80%;
+    margin: 10px;
+  }
+  
+  .txt-latest > P {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .txt-latest > h3 {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+  }
 }
 
 /* Large screen */
@@ -798,8 +934,7 @@ h2 {
 
   /* Latest funds */
   .lsec {
-    width: 80%;
-    margin: auto;
+    margin: 0;
   }
 
   .lsec > header {
@@ -873,4 +1008,53 @@ h2 {
   #deals-container {
     margin-bottom: 40px;
   }
+
+  /* Categories */
+  #nine-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+ 
+ .nine-item {
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   width: 30.5%;
+  }
+/*
+  .nine-imgflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .ali {
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    margin: 1px 0 0 0;
+  }
+
+  .txt-latest {
+    width: 80%;
+    margin: 10px;
+  }
+  
+  .txt-latest > P {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .txt-latest > h3 {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+  }*/
 }
