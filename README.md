@@ -26,7 +26,7 @@ Additional description about the project and its features.
 
 - GitHub: [@githubhandle](https://github.com/1v4n4)
 - Twitter: [@twitterhandle](https://twitter.com/codeIv1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivana-novakovic-lekovic/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/1v4n4/)
 
 ## 🤝 Contributing
 
